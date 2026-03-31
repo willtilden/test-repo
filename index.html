@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apex Solutions — What We Offer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">Apex<span>.</span></a>
+      <nav>
+        <a href="#offerings">Offerings</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn--outline">Get in Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <p class="eyebrow">Welcome to Apex Solutions</p>
+      <h1>We help your business<br><span>grow with confidence.</span></h1>
+      <p class="hero__sub">Simple, proven services tailored to your goals — no fluff, just results.</p>
+      <div class="hero__actions">
+        <a href="#offerings" class="btn btn--primary">See Our Offerings</a>
+        <a href="#contact" class="btn btn--ghost">Talk to Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERINGS -->
+  <section class="offerings" id="offerings">
+    <div class="container">
+      <h2 class="section-title">What We Offer</h2>
+      <p class="section-sub">A focused set of services designed to move the needle for your business.</p>
+      <div class="cards">
+
+        <div class="card">
+          <div class="card__icon">&#9881;</div>
+          <h3>Strategy & Consulting</h3>
+          <p>We work with you to understand your market, define your goals, and build a clear roadmap to get there.</p>
+          <a href="#contact" class="card__link">Learn more &rarr;</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">&#128200;</div>
+          <h3>Growth & Marketing</h3>
+          <p>Data-driven campaigns that reach the right audience at the right time — and convert.</p>
+          <a href="#contact" class="card__link">Learn more &rarr;</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">&#128187;</div>
+          <h3>Technology Solutions</h3>
+          <p>From custom software to workflow automation, we build the tools that keep your operations running smoothly.</p>
+          <a href="#contact" class="card__link">Learn more &rarr;</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">&#128101;</div>
+          <h3>Support & Training</h3>
+          <p>Ongoing support and hands-on training so your team stays sharp and your systems stay healthy.</p>
+          <a href="#contact" class="card__link">Learn more &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text">
+        <h2>Built on trust.<br>Driven by results.</h2>
+        <p>Apex Solutions has been helping businesses of all sizes navigate change and scale sustainably. Our team brings deep expertise across industries, with a hands-on approach that prioritizes your success above all else.</p>
+        <ul class="about__stats">
+          <li><strong>200+</strong><span>Clients Served</span></li>
+          <li><strong>12 yrs</strong><span>In Business</span></li>
+          <li><strong>98%</strong><span>Satisfaction Rate</span></li>
+        </ul>
+      </div>
+      <div class="about__visual" aria-hidden="true">
+        <div class="visual-block"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <h2>Ready to get started?</h2>
+      <p>Drop us a message and we'll be in touch within one business day.</p>
+      <form class="form" id="contactForm" novalidate>
+        <div class="form__row">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+        </div>
+        <textarea id="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+        <p class="form__feedback" id="formFeedback" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="nav__logo">Apex<span>.</span></span>
+      <p>&copy; <span id="year"></span> Apex Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
